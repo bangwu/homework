@@ -1,0 +1,42 @@
+body header{
+	overflow:hidden;
+	width:900px;
+	margin-left:200px;
+}
+body header .header-left{
+	float:left;
+}
+body header .header-left img{
+	width:300px;
+	border:1px solid black;
+}
+ body header .header-right h3.deeppink{
+	color:red;
+}
+
+body header .header-right{
+	float:left;
+	width:500px;
+	margin-left:40px;
+	margin-top:20px;
+}
+
+body header .header-right .price{
+	margin-bottom:0px;
+}
+body header .header-right .number{
+	margin-top:0px;
+}
+
+body header .header-right form button{
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	background-color: aquamarine;
+	border: transparent;
+	cursor: pointer;
+	margin-top:20px;
+}
+body header .header-right form button:hover{
+	background-color:blanchedalmond;
+}

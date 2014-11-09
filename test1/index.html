@@ -1,0 +1,53 @@
+<! DOCTYPE HTML>
+<html>
+ <head>
+  <title> 第一节课</title>
+  <meta charset="utf-8">
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <!--
+元素选择器   h1
+类选择器    .
+id选择器    #id
+全局选择器   *
+继承选择器   div p
+选择器分组  h1,h2
+伪类选择器  :hover
+  -->
+ </head>
+
+ <body>
+	<header>
+		<div class="header-left">
+			<img src="img/guanpan.jpg" alt="光盘"/>
+		</div>
+		<div class="header-right">
+			<h3>小清新光盘</h3>
+			<h3 class="deeppink">无需等待双十一，直接秒杀中</h3>
+			<p class="price">
+			价格：￥35.00
+			</p>
+			<p class="number">
+			编号：502089928
+			</p>
+			<form id="form_id" action="bay.html" method="post">
+				选择颜色：
+				<input type="radio" name="color" value="red" id="color-red"/>
+				<label for="color-red">红色</label>
+				<input type="radio" name="color" value="green" id="color-green"/>
+				<label for="color-green">绿色</label></br>
+				购买数量：
+				<input type="text" name="count" value="1"/></br>
+				<button name="submit">加入购物车</button>
+			</form>
+		</div>
+	</header>
+	<div id="body">
+
+	</div>
+
+	<footer>
+
+	</footer>
+
+ </body>
+</html>
