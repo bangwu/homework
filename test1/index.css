@@ -1,5 +1,7 @@
-body .top {
-	background-color: darkgrey;
+body #top{
+	background-color: #EFECEC;
+	width: 100%;
+	height: 20px;
 }
 
 body .top .top-left{
@@ -62,11 +64,39 @@ body div div div{
 	width:300px;
 	text-align:center;
 	margin-left:20px;
-	margin-right:52px;
+	margin-right:50px;
 }
 
 
 body div div img{
 	width:300px;
 	height:300px;
+}
+
+body #foot{
+	background-color: #EFECEC;
+	width: 100%;
+	height: 300px;
+}
+
+body footer .footer-left{
+	float:left;
+	margin-left:200px;
+}
+
+body footer .footer-right{
+	float:left;
+	margin-left:200px;
+}
+
+body footer .footer-right img{
+	width:400px;
+}
+
+body footer .footer-left ul li{
+	margin-top:10px;
+}
+
+.clear-float{
+	clear:both;
 }
