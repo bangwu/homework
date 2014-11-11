@@ -1,49 +1,72 @@
+body .top {
+	background-color: darkgrey;
+}
+
+body .top .top-left{
+	margin-left:200px;
+	float:left;
+}
+body .top .top-right{
+	margin-right:333px;
+	float:right;
+}
+
 body header{
 	overflow:hidden;
 	width:900px;
 	margin-left:200px;
 }
+
 body header .header-left{
 	float:left;
+	background-color:#DBD9D9;
+	width:200px;
+	height:300px
 }
-body header .header-left img{
+
+
+body header .header-left p{
+	margin-top:50px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+body header .header-center{
+	float:left;
+}
+
+body header .header-center img{
 	width:300px;
-	border:1px solid black;
-}
- body header .header-right h3.deeppink{
-	color:red;
 }
 
 body header .header-right{
 	float:left;
-	width:500px;
+	width:300px;
 	margin-left:40px;
 	margin-top:20px;
 }
-
-body header .header-right .price{
-	margin-bottom:0px;
-}
-body header .header-right .number{
-	margin-top:0px;
+body header .header-right p{
+	text-align:right;
 }
 
-body header .header-right form button{
-	height: 50px;
-	width: 200px;
-	font-size: 20px;
-	background-color: aquamarine;
-	border: transparent;
-	cursor: pointer;
-	margin-top:20px;
-}
-body header .header-right form button:hover{
-	background-color:blanchedalmond;
-}
-
-
-body .content .content-introduce{
-	margin-top: 40px;
+body .body{
+	margin-top: 20px;
 	margin-left: 200px;
-	margin-right: 200px;
+	margin-right: 110px;
+
+}
+
+
+body div div div{
+	float:left;
+	width:300px;
+	text-align:center;
+	margin-left:20px;
+	margin-right:52px;
+}
+
+
+body div div img{
+	width:300px;
+	height:300px;
 }

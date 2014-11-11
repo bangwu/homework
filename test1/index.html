@@ -16,38 +16,94 @@ id选择器    #id
  </head>
 
  <body>
+   <div class="top">
+     <div class="top-left">
+       <a href="#">登陆</a>
+       <a href="#">注册</a>
+     </div>
+     <div class="top-right">
+       <a href="#">我的订单</a>
+       <a href="#">购物车</a>
+     </div>
+   </div>
 	<header>
-		<div class="header-left">
+    <div class="header-left">
+      <p>光盘</p>
+      <p>U盘</p>
+      <p>硬盘</p>
+    </div>
+		<div class="header-center">
 			<img src="img/guanpan.jpg" alt="光盘"/>
 		</div>
 		<div class="header-right">
-			<h3>小清新光盘</h3>
-			<h3 class="deeppink">无需等待双十一，直接秒杀中</h3>
-			<p class="price">
-			价格：￥35.00
+			<p>小清新光盘</p>
+      <p>
+        2GB小文艺清新光盘十张
+      </p>
+			<p>
+			￥35.00元
 			</p>
-			<p class="number">
-			编号：502089928
-			</p>
-			<form id="form_id" action="bay.html" method="post">
-				选择颜色：
-				<input type="radio" name="color" value="red" id="color-red"/>
-				<label for="color-red">红色</label>
-				<input type="radio" name="color" value="green" id="color-green"/>
-				<label for="color-green">绿色</label></br>
-				购买数量：
-				<input type="text" name="count" value="1"/></br>
-				<button name="submit">加入购物车</button>
-			</form>
 		</div>
 	</header>
-	<div class="content">
-    <div class="content-introduce">
-      <label>商品介绍</label>
+	<div class="body">
+    <div class="disk">
+      <span>光盘</span>
       <hr/>
+      <div class="disk-left">
+        <span>小清新光盘</span>
+        <img src="img/disk/fancy-disk.jpg" alt="小清新光盘" />
+        <span>小清新、小文艺 35元/10张</span>
+      </div>
+      <div class="disk-center">
+        <span>婚庆光盘</span>
+        <img src="img/disk/marriage-disk.jpg" alt="婚庆光盘" />
+        <span>记录你的美好瞬间 50元/10张</span>
+      </div>
+      <div class="disk-right">
+        <span>1TB大容量光盘</span>
+        <img src="img/disk/1TB-disk.jpg" alt="1TB大容量光盘" />
+        <span>解放你的硬盘 100元/10张</span>
+      </div>
     </div>
-	</div>
-
+    <div class="hard-disk">
+      <span>硬盘</span>
+      <hr/>
+      <div class="hard-disk-left">
+        <span>固态硬盘</span>
+        <img src="img/hard-disk/ssd-disk.jpg" alt="固态硬盘" />
+        <span>128GB 固态硬盘 250元</span>
+      </div>
+      <div class="hard-disk-center">
+        <span>台式机硬盘</span>
+        <img src="img/hard-disk/normal-disk.jpg" alt="台式机硬盘" />
+        <span>500GB 台式机硬盘 300元</span>
+      </div>
+      <div class="hard-disk-right">
+        <span>笔记本硬盘</span>
+        <img src="img/hard-disk/small-disk.jpg" alt="笔记本硬盘" />
+        <span>320GB 笔记本用小硬盘 250元</span>
+      </div>
+    </div>
+    <div class="U-disk">
+      <span>&nbsp;U盘</span>
+      <hr/>
+      <div class="U-disk-left">
+         <span>Q版U盘</span>
+        <img src="img/U-disk/pig-U-disk.jpg" alt="Q版U盘" />
+        <span>2GB萌萌哒小猪猪 20元</span>
+      </div>
+      <div class="U-disk-center">
+        <span>手机U盘</span>
+        <img src="img/U-disk/mobile-phone-disk.jpg" alt="手机U盘" />
+        <span>2GB手机、电脑两用U盘 25元</span>
+      </div>
+      <div class="U-disk-right">
+        <span>大容量U盘</span>
+        <img src="img/U-disk/32GB-U-disk.jpg" alt="大容量U盘" />
+        <span>32GB超大容量U盘 45元</span>
+      </div>
+	  </div>
+    </div>
 	<footer>
 
 	</footer>
